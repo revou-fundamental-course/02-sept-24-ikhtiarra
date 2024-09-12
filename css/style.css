@@ -23,6 +23,9 @@
     background-color: lightgrey;
 }
 
+.main-content {
+    float: left;
+}
 .luas-segitiga-header {
     padding-top: 35px;
     padding-bottom: 35px;
@@ -46,6 +49,45 @@
 }
 
 .luas-segitiga-form-header {
+    text-align: center;
+}
+
+.input-wrapper {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-wrapper>input {
+    width: 70%;
+}
+.input[type=number] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: i
+}
+.keliling-segitiga-header {
+    padding-top: 35px;
+    padding-bottom: 30px;
+    margin: 0px;
+    background-color: #BCAAA4;
+    text-align: center;
+}
+.keliling-segitiga-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.keliling-segitiga-img {
+    height: 350px;
+    width: 380px;
+    background-image: url(https://asimtot.wordpress.com/wp-content/uploads/2010/06/segitiga-sama-sisi.jpg);
+    background-size: cover;
+    background-position: center;
+    align-self: center;
+}
+
+.keliling-segitiga-form-header {
     text-align: center;
 }
 
